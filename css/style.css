@@ -387,9 +387,9 @@
     }
     
     .js-scroll {
-        transition: background-color 500ms;
+        transition: background-color 1s;
         opacity: 0;
-        transition: opacity 500ms;
+        transition: opacity 1s;
     }
     
     .js-scroll.scrolled {
