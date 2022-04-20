@@ -1,3 +1,6 @@
+//Controla que un elemento este en pantalla para ejecutar una animacion mediante el uso de la clase 'scrolled'
+
+
 const scrollOffset = 100;
 
 const scrollElement = document.querySelector(".js-scroll");

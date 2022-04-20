@@ -351,6 +351,8 @@
         justify-content: center;
         align-items: center;
     }
+    /*usamos before y after para hacer la "hamburguesa" con un offset de 10px respecto del elemento en si.
+    Cuando añadimos "active" sacamos de la pantalla la linea central y giramos las otras dos.*/
     
     #toggle::before {
         content: '';

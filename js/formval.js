@@ -1,3 +1,9 @@
+//Validacion de formulario de 3 campos.
+//Pide que los campos esten rellenos (aunque el nombre pudiera haberse hecho con 'required')
+//Controla que el mensaje tenga una longitud minima
+//Regex para la validacion de e-mail (sirve para longitudes de dominio de correo variables, con varios '.' como los correos de office365 y con control de longitud caracteres al final)
+//modifica el contenido de los elementos con clase "error" del formulario.
+
 const form = document.getElementById('form');
 const Uname = document.getElementById('Uname');
 const email = document.getElementById('email');

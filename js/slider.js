@@ -1,3 +1,7 @@
+//Script para hacer una galeria animada mediante dos botones. Vamos recorriendo las imagenes y modificando su visibilidad añadiendo o quitando la clase 'hidden'
+//cada fto va acopañada de un texto inferior
+
+
 const sliderL = document.getElementById('slide-left')
 const sliderR = document.getElementById('slide-right')
 const foto1 = document.getElementById('foto1')
@@ -17,12 +21,7 @@ sliderL.onclick = function() {
     if (cterSlider < 1) cterSlider = 3
     else cterSlider--
 
-
-
-
-
-        console.log(cterSlider);
-    sliderpos(cterSlider);
+        sliderpos(cterSlider);
 
 }
 
@@ -32,8 +31,7 @@ sliderR.onclick = function() {
     if (cterSlider > 2) cterSlider = 0
     else cterSlider++
 
-        console.log(cterSlider);
-    sliderpos(cterSlider);
+        sliderpos(cterSlider);
 }
 
 
